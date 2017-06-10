@@ -1,1 +1,1 @@
-# tedxaccd-2012
+# TEDxACCD 2012 Event Page

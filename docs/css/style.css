@@ -1,0 +1,833 @@
+#container {
+	height:720px;
+	width:10000px;
+	overflow-y:hidden;
+	overflow-x:auto;
+	margin: -10px 0px 0px -10px;
+	}
+	
+#footer {
+	position:fixed;
+   	left:0px;
+   	bottom:0px;
+   	height:30px;
+   	width:100%;
+   	background:#000;
+   	z-index:110
+}
+
+#footer img {
+	margino-right:10px;
+	float:right;
+	}
+	
+.footerContent {
+	float:left;
+	margin: 10px 0px 0px 10px;
+	font-family: 'Arial', sans-serif;
+	font-size: 10px;
+	color:#6D6E71;
+	}
+
+#main {
+	margin: -10px auto 0px -15px;
+	float: left;
+	height:100%;
+	width:1024px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	background: transparent;
+	}
+
+#speakers {
+	margin: -10px auto 0px auto;
+	float: left;
+	height:100%;
+	width:1024px;
+	border-left: #D1D3D4 4px solid;
+	background: transparent;
+	}
+
+
+
+#about {
+	margin: -10px 0px 0px 0px;
+	float: left;
+	height:100%;
+	width:1024px;
+	border-left: #D1D3D4 4px solid;
+	background: transparent url(../img/aboutBackground_img.png) no-repeat  fixed 50% 0px;
+	}	
+	
+#registration {
+	margin: 0px 0px 0px 0px;
+	float: left;
+	height:100%;
+	width:1024px;
+	border-left: #D1D3D4 4px solid;
+	background: transparent url(../img/registrationBackground.jpg) no-repeat  fixed 0% 0px;
+	}
+	
+#designMatters {
+	margin: -10px 0px 0px 0px;
+	float: left;
+	height:100%;
+	width:1024px;
+	border-left: #D1D3D4 4px solid;
+	background: transparent;
+	overflow-y:hidden;
+	}
+
+#sponsors {
+	margin: -10px 0px 0px 150px;
+	float: left;
+	height:100%;
+	width:1024px;
+	background: transparent url(../img/sponsors_background2.jpg) no-repeat  fixed 50% 0px;
+	}
+	
+
+
+
+#home{
+	height:100%;
+	width:1024px;
+	position:relative;
+	}
+	
+
+
+#nav {
+	z-index:1;
+	margin: 30px 0px 0px 5px;	
+	position:fixed;
+	width:100%;
+	height:95px;
+	box-shadow: 5px 5px 5px #58595B;
+	background-color:#FFF;
+	}
+
+	
+.site_buttons{
+	float: right;
+	position: relative;
+    height: 29px;
+	width: 475px;
+	margin:40px 0px 0px 0px;
+	font-family: 'Arial', sans-serif;
+	font-size: 12px;
+	display:in-line;
+	}
+	
+#banner {
+	margin: 496px 0px 0px -418px;
+	float: left;
+	position:absolute;
+	z-index:5;
+	}
+	
+	
+#homeBackground { 
+	margin-left:0px;
+	width:1024px; 
+	height:768x; 
+	float: left;
+	}
+	
+#homeBackground img { 
+	position: absolute; 
+	display: none;
+	}
+	
+#image_1{ display: block;}
+	
+	
+.logo {
+	margin: 30px 0px 0px 35px;	
+	position:fixed;
+	}
+	
+#aboutTitle_img {
+	margin: 135px 0px 0px 20px;
+	width:100%;
+	height:65px;
+	border-bottom-width: 10px;
+	}	
+	
+#aboutContainer {
+	margin: 0px 0px 0px 40px;
+	width: 1000px;
+	height:600px;
+	overflow-y:hidden;
+	}
+	
+#about_mission {
+	float:left;
+	margin: 0px 0px 0px 0px;
+	width: 1000px;
+	height:200px;
+	}
+	
+#about_vScroll {
+	float:left;
+	margin: 0px 0px 0px 0px;
+	width: 980px;
+	height:500px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	}
+	
+
+	
+
+	
+.aboutTitle {
+	height: 25px;
+	width: 100px;
+	float:left;
+	postiion:relative;
+	margin: 0px 0px 10px 40px;
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	}
+	
+.aboutContent {
+	float:left;
+	margin: 20px 0px 30px 0px;
+	width: 300px;
+	font-family: 'Arial', sans-serif;
+	font-size: 12px;
+	}
+	
+.aboutMission{
+	float:left;
+	margin: 40px 450px 30px 35px;
+	width: 425px;
+	font-family: 'Arial', sans-serif;
+	font-size: 16px;
+	}
+	
+
+	
+	
+#ticket_btn {
+	float:left;
+	margin: 520px 0px 0px 30px;	
+  	width: 380px;
+  	height: 110px;
+  	z-index:101;
+	position:relative;
+}
+
+#ticket_btn img {
+	margin-top:100px;
+	margin-left:15px;
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	-ms-transition: opacity .5s ease-in-out;	
+	transition: opacity .5s ease-in-out;
+}
+
+#ticket_btn img.top:hover {
+	opacity:0;
+}
+
+/*	
+
+#speakers_bio {	
+	margin-top:10px;
+	float: left;
+	height:720px;
+	width:1000px;
+	position:fixed;
+	overflow-y:hidden;
+	}
+*/
+	
+#speakerNav {
+	width:100%;
+	height:200px;
+	margin: 130px 0px 0px 25px;
+	}
+	
+	
+#speakersHeader {
+	margin: 150px 0px 0px 20px;
+	float: left;
+	width: 475px;
+	height: 275px;
+	}
+
+#speakers_name {
+	margin: 40px 0px 0px 0px;
+	float: right;
+	width: 475px;
+	height: 275px:
+	}
+	
+#speakerWrap {
+	width: 100%;
+	height:400px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	margin-top:-50px;
+	}
+	
+.speakersaContainer_btn {
+	float:right;
+	margin: 10px 0px 0px 0px;
+	width: 475px;
+	height: 275px;
+	}
+	
+.speakers_button {
+	margin: 10px 0px 0px 50px;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	width: 475px;
+	height: 275px;
+	}
+	
+.content {
+	margin-top:50px;
+	float: left;
+	width:300px;
+	height: 320px;
+	}
+	
+.speakerImage{
+	float:left;
+	margin-top: 50px;
+	margin-left:35px;
+	width:150px;
+	height:150px;
+	}
+//******************Speaker divs*************//	
+
+#contentContainer {
+	margin: 20px 0px 0px 0px;
+	width:510px;
+	height:320px;
+	float:left;
+	
+	}
+
+	
+.speakerImage {
+	float:left;
+	}
+	
+.speakerTitle {
+	margin: 0px 0px 0px 15px;
+	float: left;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	}
+	
+.subTitle {
+	margin: 0px 0px 20px 15px;
+	float: left;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	color:#FF2B06;
+	}
+	
+.speakerContent {
+	margin: 0px 0px 0px 15px;
+	float: left;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	}
+	
+
+
+#registrationContainer {
+	float:left;
+	margin: 115px 0px 0px 0px;
+	width:575px;
+	height:610px;
+	background-color:#FFF;
+	overflow-y:hidden;
+	}
+	
+#registrationWrap {
+	float:left;
+	margin: 0px 0px 0px 0px;
+	width:575px;
+	height:400px;
+	float:left;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	background-color:#FFF;
+	overflow-y:auto;
+	overflow-x:hidden;
+	}
+	
+#registrationContainer img{
+	margin: 0px 0px 0px 30px;
+	}
+	
+.registrationTitle {
+	margin: 40px 0px 0px 40px;
+	font-family: 'Arial', sans-serif;
+	font-size: 30px;
+	color:#FF2B06;
+	font-weight:bold;
+	float:left;
+	z-index:2;
+	}
+	
+.registrationSubTitle {
+	margin: 100px 0px 0px 43px;
+	width: 450px;
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+	color:#6D6E71;
+	font-weight:bold;
+	}
+	
+.registrationContent {
+	margin: 100px 0px 0px 43px;
+	width: 450px;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	color:#6D6E71;
+	font-weight:bold;
+	}
+	
+.paymentContent {
+	margin: 0px 0px 0px 43px;
+	width: 450px;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	color:#6D6E71;
+	font-weight:bold;
+	}
+	
+
+#registration_btn img {
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	-ms-transition: opacity 1s ease-in-out;	
+	transition: opacity 1s ease-in-out;
+}
+
+#registration_btn img.top:hover {
+	opacity:0;
+}
+
+
+#sponsorsContainer {
+	float:left;
+	margin: 115px 0px 0px 0px;
+	width:475px;
+	height:610px;
+	background-color:#FFF;
+	overflow-y:hidden;
+	}
+	
+#sponsorHeader {
+	margin: 20px 0px 0px 20px;
+	float:left;
+	}
+	
+#sponsorsWrap {
+	float:left;
+	margin: 0px 0px 0px 0px;
+	width:475px;
+	height:400px;
+	float:left;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	background-color:#FFF;
+	overflow-y:auto;
+	overflow-x:hidden;
+	}
+	
+#johnson {
+	float:left;
+	width:575px;
+	height:100px;
+	margin:30px 0px 0px 0px;
+	}
+	
+#wellsFargo {
+	float:left;
+	width:575px;
+	height:100px;
+	margin:0px 0px 0px 20px;
+	}
+	
+#nciia {
+	float:left;
+	width:575px;
+	height:100px;
+	margin:30px 0px 0px 20px;
+	}
+	
+#sodexo {
+	float:left;
+	width:575px;
+	height:100px;
+	margin:30px 0px 0px 20px;
+	}
+	
+#follet {
+	float:left;
+	width:575px;
+	height:100px;
+	margin:30px 0px 0px 20px;
+	}
+	
+#freshPressed {
+	float:left;
+	width:575px;
+	height:100px;
+	margin:30px 0px 0px 20px;
+	}
+	
+	
+#johnsonControls {
+	position:relative;
+	float:left;
+	width:177px;
+	height:83px;
+	margin:0px 0px 15px 20px;
+	}
+	
+
+#johnsonControls img {
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+	-ms-transition: opacity .25s ease-in-out;	
+	transition: opacity .25s ease-in-out;
+}
+
+#johnsonControls img.top:hover {
+	opacity:0;
+}
+
+#vitaminWater {
+	position:relative;
+	float:left;
+	width:229px;
+	height:55px;
+	margin:115px 0px 15px -185px;
+	}
+	
+
+#vitaminWater img {
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+	-ms-transition: opacity .25s ease-in-out;	
+	transition: opacity .25s ease-in-out;
+}
+
+#vitaminWater img.top:hover {
+	opacity:0;
+}
+
+#sicApparel {
+	position:relative;
+	float:left;
+	width:229px;
+	height:55px;
+	margin:225px 0px 15px -225px;
+	}
+	
+
+#sicApparel img {
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+	-ms-transition: opacity .25s ease-in-out;	
+	transition: opacity .25s ease-in-out;
+}
+
+#sicApparel img.top:hover {
+	opacity:0;
+}
+
+
+#waxie {
+	float:left;
+	width:575px;
+	height:100px;
+	margin:30px 0px 0px 20px;
+	}
+	
+.sponsorsTitle {
+	width: 575px;
+	margin: 40px 0px 0px 25px;
+	font-family: 'Arial', sans-serif;
+	font-size: 30px;
+	color:#FF2B06;
+	font-weight:bold;
+	float:left;
+	z-index:2;
+	}
+
+	
+#tedxStudio_img { 
+	width:1024px; 
+	height:768x; 
+	float: left;
+	margin-top:-250px;
+	z-index:99;
+	overflow-y:hidden;
+	}
+	
+#tedxStudio_img img { 
+	position: absolute; 
+	display: none;
+	}
+	
+#studio_1{ display: block;}
+	
+	
+.studioTitle {
+	float:right;
+	margin: 150px 900px 0px auto;
+	font-family: 'Arial', sans-serif;
+	font-size: 30px;
+	font-weight:bold;
+	color:#FFF;
+	position:relative;
+	z-index:99
+	}
+	
+	
+.TEDx_studioDirection {
+	float:right;
+	margin: -150px -90px 0px auto;
+	font-family: 'Arial', sans-serif;
+	font-size: 30px;
+	font-weight:bold;
+	color:#FF2B06;
+	position:relative;
+	z-index:101
+	}
+
+
+
+
+
+	
+#TEDx_studioWeek01 {
+	margin: -10px 0px 0px 150px;
+	float: left;
+	height:100%;
+	width:1024px;
+	background: transparent url(../img/week01/week01_background.gif) no-repeat  fixed 50% 0px;
+	}	
+
+
+	
+.TEDx_studioImg {
+	float:left;
+	margin: 115px 0px 0px 0px;
+	width:575px;
+	height:100%;
+	float:left;
+	overflow-y:auto;
+	overflow-x:hidden;
+	}
+	
+#tedxHeader {
+	z-index:101;
+	float:left;
+	margin-top:130px;
+	margin-left:50px;
+	position:relative;
+	}
+	
+#tag4 {
+	margin-left:300px;
+	}
+#tag3 {
+	margin-left:300px;
+	}
+	
+#TEDx_studioWeek02 {
+	margin: -10px 0px 0px 10px;
+	float: left;
+	height:100%;
+	width:1024px;
+	background: transparent url(../img/week02/week02_background.gif) no-repeat  fixed 50% 0px;
+	}	
+	
+#TEDx_studioWeek03 {
+	margin: -10px 0px 0px 10px;
+	float: left;
+	height:100%;
+	width:1024px;
+	background: transparent;
+	}
+	
+.inProgress {
+	margin: 400px 0px 0px 500px;
+	font-family: 'Arial', sans-serif;
+	font-size: 30px;
+	font-weight:bold;
+	color:#FF2B06;
+	position:relative;
+	z-index:99
+	width:400px;
+	}
+	
+
+.registration_btn {
+	margin: 20px 0px 0px 40px;	
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	color:#FF2B06;
+	font-weight:bold;
+	float:left;
+}
+
+			
+	
+.registerContent {
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	color:#000;
+	font-weight:bold;
+	float:left;
+	z-index:2;
+	margin-left:15px;
+	}
+	
+#registerBtn {
+	position:relative;
+	float:left;
+	height:32px;
+	width:142px;
+	margin:30px 0px 0px 5px;	
+}
+#registerBtn img {
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	-ms-transition: opacity .5s ease-in-out;	
+	transition: opacity .5s ease-in-out;
+}
+
+#registerBtn img.top:hover {
+	opacity:0;
+}
+
+.ticketPrice {
+	margin: 30px 0px 0px 50px;
+	float: left;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	}
+
+	
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+li { 
+	display:inline; 
+	margin-left:15px;
+	}
+	
+
+	
+
+
+
+:active, :focus { outline: none; -moz-outline-style: none; }
+
+
+
+
+a:hover {
+	color: #FF2B06;
+	}
+	
+a:link {
+	text-decoration: none;
+	color: #808183;
+}
+
+a:visited {
+	color:#808183;
+	}
+
+	
+a:hover {
+	color: #FF2B06;
+	}
+
+
+a:focus {
+	color: black;
+	outline: none;
+	}
+	
+
+
+@-moz-document hover() {
+  .selector {
+     color:#FF2B06;
+  }
+}
+
+@-moz-document link() {
+  .selector {
+    text-decoration: none;
+    outline: none;
+	color: #808183;
+  }
+  
+  @-moz-document visited() {
+  .selector {
+	color: #808183;
+  }
+
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
+	
